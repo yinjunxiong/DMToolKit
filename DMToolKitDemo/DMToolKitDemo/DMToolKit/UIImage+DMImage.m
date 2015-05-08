@@ -10,9 +10,9 @@
 
 @implementation UIImage (DMImage)
 
-+ (UIImage *)imageWithImage:(UIImage *)srcImg blur:(CGFloat)blur {
+- (UIImage *)imageWithBlur:(CGFloat)blur {
     CIContext *context = [CIContext contextWithOptions:nil];
-    CIImage *inputImage = [[CIImage alloc] initWithImage:srcImg];
+    CIImage *inputImage = [[CIImage alloc] initWithImage:self];
     // create gaussian blur filter
     CIFilter *filter = [CIFilter filterWithName:@"CIGaussianBlur"];
     [filter setValue:inputImage forKey:kCIInputImageKey];
@@ -23,6 +23,13 @@
     UIImage *image = [UIImage imageWithCGImage:cgImage];
     CGImageRelease(cgImage);
     return image;
+}
+
+- (UIImage *)imageWithFrame:(CGRect)contentFrame {
+    CGImageRef imgRef = CGImageCreateWithImageInRect(self.CGImage, contentFrame);
+    UIImage *resultImg = [UIImage imageWithCGImage:imgRef];
+    CGImageRelease(imgRef);
+    return resultImg;
 }
 
 @end

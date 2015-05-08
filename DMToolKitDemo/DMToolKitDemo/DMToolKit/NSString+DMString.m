@@ -11,8 +11,8 @@
 
 @implementation NSString (DMString)
 
-+ (NSString *) md5:(NSString *)str {
-    const char *cStr = [str UTF8String];
+- (NSString *)MD5String {
+    const char *cStr = [self UTF8String];
     unsigned char result[16];
     CC_MD5(cStr, (CC_LONG)strlen(cStr), result); // This is the md5 call
     return [NSString stringWithFormat:

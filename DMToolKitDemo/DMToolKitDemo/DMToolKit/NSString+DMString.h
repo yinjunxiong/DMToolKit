@@ -10,4 +10,11 @@
 
 @interface NSString (DMString)
 
+/**
+ *  使用MD5加密字符串
+ *
+ *  @return 加密后的字符串
+ */
+- (NSString *)MD5String;
+
 @end
