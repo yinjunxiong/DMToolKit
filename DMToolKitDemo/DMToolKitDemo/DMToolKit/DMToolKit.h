@@ -10,3 +10,4 @@
 #import "UIColor+DMColor.h"
 #import "UIImage+DMImage.h"
 #import "NSString+DMString.h"
+#import "NSURL+DMURL.h"

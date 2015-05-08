@@ -18,6 +18,7 @@
 		18A77C261AFC8E460004537A /* NSString+DMString.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A77C201AFC8E460004537A /* NSString+DMString.m */; };
 		18A77C271AFC8E460004537A /* UIColor+DMColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A77C221AFC8E460004537A /* UIColor+DMColor.m */; };
 		18A77C281AFC8E460004537A /* UIImage+DMImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A77C241AFC8E460004537A /* UIImage+DMImage.m */; };
+		18A77C2B1AFC8EB20004537A /* NSURL+DMURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A77C2A1AFC8EB20004537A /* NSURL+DMURL.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		18A77C221AFC8E460004537A /* UIColor+DMColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DMColor.m"; sourceTree = "<group>"; };
 		18A77C231AFC8E460004537A /* UIImage+DMImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DMImage.h"; sourceTree = "<group>"; };
 		18A77C241AFC8E460004537A /* UIImage+DMImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DMImage.m"; sourceTree = "<group>"; };
+		18A77C291AFC8EB20004537A /* NSURL+DMURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+DMURL.h"; sourceTree = "<group>"; };
+		18A77C2A1AFC8EB20004537A /* NSURL+DMURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+DMURL.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +148,8 @@
 				18A77C221AFC8E460004537A /* UIColor+DMColor.m */,
 				18A77C231AFC8E460004537A /* UIImage+DMImage.h */,
 				18A77C241AFC8E460004537A /* UIImage+DMImage.m */,
+				18A77C291AFC8EB20004537A /* NSURL+DMURL.h */,
+				18A77C2A1AFC8EB20004537A /* NSURL+DMURL.m */,
 			);
 			path = DMToolKit;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				18A77C261AFC8E460004537A /* NSString+DMString.m in Sources */,
 				18A77BFE1AFC8E360004537A /* ViewController.m in Sources */,
 				18A77C271AFC8E460004537A /* UIColor+DMColor.m in Sources */,
+				18A77C2B1AFC8EB20004537A /* NSURL+DMURL.m in Sources */,
 				18A77BFB1AFC8E360004537A /* AppDelegate.m in Sources */,
 				18A77BF81AFC8E360004537A /* main.m in Sources */,
 				18A77C281AFC8E460004537A /* UIImage+DMImage.m in Sources */,
