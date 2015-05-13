@@ -9,9 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface UIView (DMFrame)
-@property (nonatomic,strong) NSString *str;
 -(CGFloat)W;//获取控件的宽度
--(CGFloat)X;//获取控件的初始化X坐标、-(CGFloat)Y;//获取控件的初始化Y坐标
+-(CGFloat)X;//获取控件的初始化X坐标
+-(CGFloat)Y;//获取控件的初始化Y坐标
 -(CGFloat)H;//获取控件的高度
 -(CGFloat)endX;//获取控件结束点的X坐标
 -(CGFloat)endY;//获取控件结束点的Y坐标

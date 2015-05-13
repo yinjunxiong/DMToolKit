@@ -9,7 +9,6 @@
 #import "UIView+DMFrame.h"
 
 @implementation UIView (DMFrame)
-@dynamic str;
 -(CGFloat)W{
     return self.frame.size.width;
 }

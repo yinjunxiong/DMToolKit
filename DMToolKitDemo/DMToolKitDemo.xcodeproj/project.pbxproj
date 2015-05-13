@@ -20,7 +20,6 @@
 		18A77C281AFC8E460004537A /* UIImage+DMImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A77C241AFC8E460004537A /* UIImage+DMImage.m */; };
 		18A77C2B1AFC8EB20004537A /* NSURL+DMURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A77C2A1AFC8EB20004537A /* NSURL+DMURL.m */; };
 		2D1E1E6F1B01A4EA009992F6 /* UIView+DMFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1E1E6D1B01A4EA009992F6 /* UIView+DMFrame.m */; };
-		2D1E1E721B01AFA5009992F6 /* UIImageView+DMImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D1E1E711B01AFA5009992F6 /* UIImageView+DMImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,8 +59,6 @@
 		18A77C2A1AFC8EB20004537A /* NSURL+DMURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+DMURL.m"; sourceTree = "<group>"; };
 		2D1E1E6D1B01A4EA009992F6 /* UIView+DMFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DMFrame.m"; sourceTree = "<group>"; };
 		2D1E1E6E1B01A4EA009992F6 /* UIView+DMFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DMFrame.h"; sourceTree = "<group>"; };
-		2D1E1E701B01AFA5009992F6 /* UIImageView+DMImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+DMImageView.h"; sourceTree = "<group>"; };
-		2D1E1E711B01AFA5009992F6 /* UIImageView+DMImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+DMImageView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +105,6 @@
 				18A77BFA1AFC8E360004537A /* AppDelegate.m */,
 				18A77BFC1AFC8E360004537A /* ViewController.h */,
 				18A77BFD1AFC8E360004537A /* ViewController.m */,
-				2D1E1E701B01AFA5009992F6 /* UIImageView+DMImageView.h */,
-				2D1E1E711B01AFA5009992F6 /* UIImageView+DMImageView.m */,
 				18A77BFF1AFC8E360004537A /* Main.storyboard */,
 				18A77C021AFC8E360004537A /* Images.xcassets */,
 				18A77C041AFC8E360004537A /* LaunchScreen.xib */,
@@ -268,7 +263,6 @@
 				18A77BFE1AFC8E360004537A /* ViewController.m in Sources */,
 				18A77C271AFC8E460004537A /* UIColor+DMColor.m in Sources */,
 				18A77C2B1AFC8EB20004537A /* NSURL+DMURL.m in Sources */,
-				2D1E1E721B01AFA5009992F6 /* UIImageView+DMImageView.m in Sources */,
 				18A77BFB1AFC8E360004537A /* AppDelegate.m in Sources */,
 				18A77BF81AFC8E360004537A /* main.m in Sources */,
 				18A77C281AFC8E460004537A /* UIImage+DMImage.m in Sources */,

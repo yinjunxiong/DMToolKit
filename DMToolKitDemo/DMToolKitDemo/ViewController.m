@@ -7,8 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "UIImageView+DMImageView.h"
-#import "NSString+DMString.h"
 @interface ViewController ()
 
 @end
@@ -18,8 +16,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    UIView *strView = [[UIView alloc] init];
-    strView.str = @"";
 }
 
 - (void)didReceiveMemoryWarning {
