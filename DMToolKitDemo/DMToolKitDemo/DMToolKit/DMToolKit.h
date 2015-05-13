@@ -11,3 +11,4 @@
 #import "UIImage+DMImage.h"
 #import "NSString+DMString.h"
 #import "NSURL+DMURL.h"
+#import "UIView+DMFrame.h"
